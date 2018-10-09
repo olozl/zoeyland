@@ -1,0 +1,5 @@
+<article *ngFor="let ct of cts">
+    <div><span><a routerLink="/detail/{{ct.id}}" ><img src={{ct.img}}></a></span></div>
+    <p><span>{{ct.date}}</span></p>
+</article>
+<app-footer></app-footer>
